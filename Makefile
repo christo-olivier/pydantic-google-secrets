@@ -14,7 +14,7 @@ run-app-env-file:
 
 run-app-env-var:
 	@echo "Running docker container with env-file..."
-	docker run -it --rm --env-file .env pydantic-google-secrets:latest
+	docker run -it --rm --env my_secret_value="ENV Secret" pydantic-google-secrets:latest
 
 run-app-adc:
 	@echo "Running docker container with Google Cloud application default credentials..."
