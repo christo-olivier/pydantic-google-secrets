@@ -7,4 +7,4 @@ logging.basicConfig(level=os.getenv("log_level", "INFO"))
 
 settings = Settings()
 
-print(f"secret_name value: `{settings.my_secret_value}`")
+print(f"my_secret_value: `{settings.my_secret_value}`")
