@@ -3,7 +3,7 @@ import os
 from config import Settings
 
 
-logging.basicConfig(level=os.getenv("log_level", "INFO"))
+logging.basicConfig(level=os.getenv("LOG_LEVEL", "INFO"))
 
 settings = Settings()
 
